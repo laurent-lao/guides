@@ -39,3 +39,5 @@ Now it should work.
 * On the Github page, after the command `wget -q0- ...`, it says that the script would add it's settings automatically to your `~/.zshrc` file, but you might have to do manually.
 
 * If you have to, add the `export NVM_DIR="$([...]"$NVM_DIR/nvm.sh" # This loads nvm` snippet to your `~/.zshrc` file (under the `export PATH...`).
+
+* You can follow the [Node.js install guide] to get node installed
