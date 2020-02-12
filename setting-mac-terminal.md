@@ -40,4 +40,4 @@ Now it should work.
 
 * If you have to, add the `export NVM_DIR="$([...]"$NVM_DIR/nvm.sh" # This loads nvm` snippet to your `~/.zshrc` file (under the `export PATH...`).
 
-* You can follow the [Node.js install guide] to get node installed
+* You can follow the [Node.js install guide](node-js-installation.md) to get node installed
