@@ -26,7 +26,9 @@ Just type `vim ~/.zshrc` to modify the `~/.zshrc` file. (You can alternatively u
 
 ## Modifying your $PATH
 
-Modifying your $PATH is especially important for making `brew` (Homebrew's terminal shorthand) packages work seamlessly in the Terminal. When you type `vim`, it accesses a binary at `usr/bin/vim` (you can get that path when you execute `which vim`). However, Homebrew installs binaries at `usr/local/bin`, it might create some problems. This is because your `$PATH` (`echo $PATH`) might not include that `usr/local/bin`. Also, paths included before have priority on paths included afterwards.
+`$PATH` is an environment variable. macOS uses `$PATH` to specify a set of directories where executables (or binary files) are located. When your terminal window is created, it uses the `$PATH` to load the shell executables that are on your system. That is how your shell knows what to execute when you type `vim` for example.
+
+Modifying your $PATH is especially important for making `brew` (Homebrew's terminal shorthand) packages work seamlessly in the Terminal. When you type `vim`, it accesses a binary at `usr/bin/vim` with `usr/bin` being defined by your $PATH (you can get that path when you execute `which vim`). However, Homebrew installs binaries at `usr/local/bin`, it might create some problems. This is because your `$PATH` (`echo $PATH`) might not include that `usr/local/bin`. Also, paths included before have priority on paths included afterwards.
 
 * Add: `export PATH=/usr/local/Cellar:/usr/local/bin:$HOME/bin:$PATH` to the `~/.zshrc`.
 
