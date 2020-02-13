@@ -46,7 +46,7 @@ Below is the setting that worked well for me so far:
 
 ### Node Version Manager
 
-Node Version Manager allows you to easily switch between different versions of node. You 
+Node Version Manager allows you to easily switch between different versions of node. You do not have to install it, unless you work with Node. It is included here as it requires a small modification to your `~/.zshrc` file.
 
 * On the [Github page]((https://github.com/nvm-sh/nvm)), after the command `wget -q0- ...`, it says that the script would add it's settings automatically to your `~/.zshrc` file, but you might have to do manually.
 
