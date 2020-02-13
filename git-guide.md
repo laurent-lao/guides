@@ -247,7 +247,7 @@ For some development projects, you might want to fork an existing repository and
 
 To update your fork's master branch, run the following (with `Enter` key after each line):
 
-```bash
+```zsh
 git checkout master
 git fetch upstream
 git pull upstream master
