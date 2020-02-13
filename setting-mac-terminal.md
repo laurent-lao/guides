@@ -24,7 +24,7 @@ The `~/.zshrc` is not usually created by default. Navigate to your `~` folder by
 
 If not, you can create the file with a  text editor or simply execute `touch .zshrc`.
 
-You can then modify the file using any text editor, although I would recommend `vim` since `Finder` does not display files starting with a period (`.`) by default.
+You can then modify the file using any text editor , although I would recommend `vim` since `Finder` does not display files starting with a period (`.`) by default.
 
 ### Modify `~/.zshrc` using Vim
 
@@ -63,3 +63,13 @@ Oh My Zsh allows you to run customize your zsh Terminal. It prettifies it but al
 ## Installing Git
 
 Git is a version control system. It is probably the most important tool for a programmer. That is more often than not the way programmers use to collaborate with each other. With Git, you can use Github, Gitlab and other repository providers. I have written a [Git Guide](git-guide.md) to help with the process, but you should do a tutorial to understand Git better. Git is usually installed after you executed `xcode-select --install`. If not, or if you would like to use a more recent copy of Git, you can use `brew install git` to get Git on your Mac.
+
+## Launching text editors with terminal
+
+### VSCode
+
+To launch VSCode by using `code` or `code <filename>` in the Terminal, launch VSCode first. Then, open the Command Panel (usually with `cmd+shift+P`). Type `Shell Command: Install 'code' command in PATH` and press enter. Now the command should work.
+
+### Sublime Text 3
+
+Try launching Sublime Text 3 by executing `open /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl`. If that works, then you can create a symlink in your `/usr/local/bin` by executing `ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime`. `sublime` and `sublime <filename>` will open Sublime Text 3.
