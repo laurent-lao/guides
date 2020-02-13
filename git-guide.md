@@ -37,6 +37,8 @@ I forked a [popular list of git-commands](https://github.com/joshnh/Git-Commands
 * [Overwrite Remote Branch](#overwrite-remote-branch)
 
 * [Delete Sensitive Files from Git](#delete-sensitive-files-from-git)
+
+* [Forking Workflow](#forking-workflow)
   
 [Good Practices](#good-practices)
 
@@ -226,6 +228,31 @@ Then, update remote
 See [BFG guide](https://rtyley.github.io/bfg-repo-cleaner/) use `bfg` instead of the java commands (make sure to mirror)
 
 Can also use `git filter-branch` (more details in source)
+
+### Forking Workflow
+
+[Source](https://docs.qmk.fm/#/newbs_git_using_your_master_branch)
+
+For some development projects, you might want to fork an existing repository and keep the master branch updated with the fork, and only work off in a development branch in the fork.
+
+### Keeping the master branch updated
+
+* Add the source repo as your as a remote alias `git remote add upstream <repolink.git>`
+
+  * Here we used `upstream` by convention, but you can name it anything you want
+
+* Verify that the repository has been added by running `git remote -v` (the `<repolink.git>` should be displayed right next to the alias you chose (`upstream` in this case))
+
+* Now you can check for updates in the source repo by using `git fetch <alias>` (`git fetch upstream`).
+
+To update your fork's master branch, run the following (with `Enter` key after each line):
+
+```bash
+git checkout master
+git fetch upstream
+git pull upstream master
+git push origin master
+```
 
 ## Good Practices
 
