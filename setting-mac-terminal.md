@@ -2,6 +2,10 @@
 
 This guide assumes that you are using Catalina and above. In Catalina, macOS now uses `zsh` instead of `bash` as a terminal shell. As such, some of the information available on the web is outdated. A workaround is to include `zsh` in your search parameters.
 
+## iTerm2
+
+Although the default Terminal is very powerful, you might want to look at an alternative called [iTerm2](https://iterm2.com/features.html) which is a better Terminal IMO. You could also install iTerm2 by executing `brew cask install iterm2` (only after you installed brew with the instructions below).
+
 ## Installing brew
 
 In Debian-based Linux distros, they have a software package manager called Advanced Packaging Tool. Users can use `apt` (and also `apt-get`) to install packages for their OS (i.e. `apt install git`). In macOS, there is no such thing, so the open-source tool [Homebrew](https://brew.sh/) fills that void.
@@ -22,24 +26,38 @@ You can then modify the file using any text editor, although I would recommend `
 
 ### Modify `~/.zshrc` using Vim
 
-Just type `vim ~/.zshrc` to modify the `~/.zshrc` file. (You can alternatively use `nano ~/.zshrc` if you are unfamiliar with vim.)
+Just type `vim ~/.zshrc` to modify the `~/.zshrc` file. (You can alternatively use `nano ~/.zshrc` if you are unfamiliar with vim. It is way easier to use.)
 
 ## Modifying your $PATH
 
-`$PATH` is an environment variable. macOS uses `$PATH` to specify a set of directories where executables (or binary files) are located. When your terminal window is created, it uses the `$PATH` to load the shell executables that are on your system. That is how your shell knows what to execute when you type `vim` for example.
+`$PATH` is an environment variable. macOS uses `$PATH` to specify a set of directories where executables (or binary files) are located. When your Terminal window is created, it uses the `$PATH` to load the shell executables that are on your system. That is how your shell knows what to execute when you type `vim` for example.
 
-Modifying your $PATH is especially important for making `brew` (Homebrew's terminal shorthand) packages work seamlessly in the Terminal. When you type `vim`, it accesses a binary at `usr/bin/vim` with `usr/bin` being defined by your $PATH (you can get that path when you execute `which vim`). However, Homebrew installs binaries at `usr/local/bin`, it might create some problems. This is because your `$PATH` (`echo $PATH`) might not include that `usr/local/bin`. Also, paths included before have priority on paths included afterwards.
+Modifying your $PATH is especially important for making `brew` (Homebrew's terminal shorthand) packages work seamlessly in the Terminal. When you type `vim`, it accesses a binary at `usr/bin/vim` with `usr/bin` being defined by your $PATH (you can get that path when you execute `which vim`). However, since Homebrew installs binaries at `usr/local/bin`, it might create some problems where you are not able to locate packages you have just installed. This is because your `$PATH` (`echo $PATH`) might not include that `usr/local/bin`. As an important node, the order of paths in `$PATH` is important. Paths included before have priority on paths included afterwards.
 
-* Add: `export PATH=/usr/local/Cellar:/usr/local/bin:$HOME/bin:$PATH` to the `~/.zshrc`.
+Below is the setting that worked well for me so far:
 
-Now it should work.
+* Use a text editor to modify your `./zshrc` file (you can use `vim ~/.zshrc` or `nano ~/.zshrc`).
+
+* Add: `export PATH=/usr/local/Cellar:/usr/local/bin:$HOME/bin:$PATH` to the `~/.zshrc` file.
 
 ## Other programs that will require you to edit your `~/.zshrc`
 
-### [Node Version Manager](https://github.com/nvm-sh/nvm)
+### Node Version Manager
 
-* On the Github page, after the command `wget -q0- ...`, it says that the script would add it's settings automatically to your `~/.zshrc` file, but you might have to do manually.
+Node Version Manager allows you to easily switch between different versions of node. You 
 
-* If you have to, add the `export NVM_DIR="$([...]"$NVM_DIR/nvm.sh" # This loads nvm` snippet to your `~/.zshrc` file (under the `export PATH...`).
+* On the [Github page]((https://github.com/nvm-sh/nvm)), after the command `wget -q0- ...`, it says that the script would add it's settings automatically to your `~/.zshrc` file, but you might have to do manually.
 
-* You can follow the [Node.js install guide](node-js-installation.md) to get node installed
+* If you have to, add the `export NVM_DIR="$([...]"$NVM_DIR/nvm.sh" # This loads nvm` snippet available in the Github page to your `~/.zshrc` file (under the `export PATH...`, or anywhere else).
+
+* You can follow the [Node.js install guide](node-js-installation.md) to get node, angular and/or react installed
+
+### Oh My Zsh
+
+Oh My Zsh allows you to run customize your zsh Terminal. It prettifies it but also adds a lot of features. I recommend that you backup your `~/.zshrc` file before [you install it](https://github.com/ohmyzsh/ohmyzsh) by executing `cp ~/.zshrc ~/.zshrc.copy`. Then, once the installation is done, copy anything from the `~/.zshrc.copy` to `~/.zshrc`. Although anything that modifies $PATH should be put at the top, anywhere is fine.
+
+# Installing other command-line tools
+
+## Installing Git
+
+Git is a version control system. It is probably the most important tool for a programmer. That is more often than not the way programmers use to collaborate with each other. With Git, you can use Github, Gitlab and other repository providers. I have written a [Git Guide](git-guide.md) to help with the process, but you should do a tutorial to understand Git better. Git is usually installed after you executed `xcode-select --install`. If not, or if you would like to use a more recent copy of Git, you can use `brew install git` to get Git on your Mac.
