@@ -16,7 +16,9 @@ Then you can follow the instructions featured on the [Homebrew](https://brew.sh/
 
 ## Creating and modifying your `~/.zshrc` file
 
-Whenever you start any `zsh` Terminal window, it looks for a `.zshrc` file in your `~` directory (the default directory that simply writing `cd` brings you to). It is a bit different from the `~/.zprofile` file. That one is only read in a login shell. When you manually open a shell terminal, it is often not a login shell. Since `~/.zshrc` is read for any shell (including login shells), we will be modifying that file to set some environment variables such as `$PATH`. More advanced configurations might require you to modify `~/.zprofile` instead, but they are outside of the scope of this guide. 
+Whenever you start any `zsh` Terminal window, it looks for a `.zshrc` file in your `~` directory (the default directory that simply writing `cd` brings you to). It is a bit different from the `~/.zprofile` file. That one is only read in a login shell. When you manually open a shell terminal, it is often not a login shell.
+
+Since `~/.zshrc` is read for any shell (including login shells), we will be modifying that file to set some environment variables such as `$PATH`. More advanced configurations might require you to modify `~/.zprofile` instead, but they are outside of the scope of this guide.
 
 The `~/.zshrc` is not usually created by default. Navigate to your `~` folder by typing `cd` and execute `ls -a` to see if `.zshrc` already exists.
 
