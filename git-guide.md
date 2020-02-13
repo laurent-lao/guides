@@ -179,9 +179,9 @@ More information can be found [here](https://www.atlassian.com/git/tutorials/sav
 
 `git rebase -i HEAD~n` use a commit before the one you want to change
 
-Use VIM to pick/reword/...
+Use VIM to pick/reword/... (actually rewrite pick into "reword" or whatever other command)
 
-`git pull` + `git push` (sometimes need `--force`)
+`git push` (sometimes need `--force`)
 
 ### Archiving Branches
 [Source](https://stackoverflow.com/questions/35738790/how-to-close-a-branch-in-git)
