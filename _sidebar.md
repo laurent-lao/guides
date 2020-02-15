@@ -1,4 +1,7 @@
 <!-- markdownlint-disable MD041 -->
+
+* [Laurent's Setup](laurent-setup)
+
 * [Git Guide](git-guide.md)
 
 * [Setting Mac Terminal](setting-mac-terminal.md)
