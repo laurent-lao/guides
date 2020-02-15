@@ -15,3 +15,4 @@
   * For Angular, you can use the command `npm install -g @angular/cli@latest`.
 
   * For React, you can use the command `npm install -g react`.
+  

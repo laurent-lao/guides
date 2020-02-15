@@ -194,6 +194,7 @@ Use VIM to pick/reword/... (actually rewrite pick into "reword" or whatever othe
 `git push` (sometimes need `--force`)
 
 ### Archiving Branches
+
 [Source](https://stackoverflow.com/questions/35738790/how-to-close-a-branch-in-git)
 
 `git tag archive/<branchname> <branchname>`
@@ -217,6 +218,7 @@ Then, update remote
 `git push --tags`
 
 ### Overwrite Local Branch
+
 [Source](https://www.freecodecamp.org/forum/t/git-pull-how-to-override-local-files-with-git-pull/13216)
 
 `git fetch (--all)`
