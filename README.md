@@ -15,3 +15,9 @@ Use the [Issue Page](https://github.com/laurentlaurent/guides/issues) to request
 ## Contributors
 
 [@laurentlaurent](https://github.com/laurentlaurent)
+
+<!-- 
+====================  Contribution Guide ====================
+When adding a new page, make sure something refers to it
+Add it to the sidebar if need be
+-->

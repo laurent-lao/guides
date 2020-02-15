@@ -2,6 +2,12 @@
 
 I forked a [popular list of git-commands](https://github.com/joshnh/Git-Commands) and added my own notes to serve as a general Git Guide
 
+<!-- 
+====================  Contribution Guide ====================
+1. Add the section header in the ## Sections
+2. Create the header and start typing.
+-->
+
 ## Sections
 
 [Git Basics](#git-basics)
@@ -43,6 +49,8 @@ I forked a [popular list of git-commands](https://github.com/joshnh/Git-Commands
 [Good Practices](#good-practices)
 
 * [Writing good Git Commit Messages](#writing-good-git-commit-messages)
+
+* [Being a good Code Reviewer](#being-a-good-code-reviewer)
 
 ## Git Basics
 
@@ -269,3 +277,7 @@ From [How to write a Git Commit Message](https://chris.beams.io/posts/git-commit
 7. Use the body to explain what and why vs. how
 
 ```Fix typo in README.md``` instead of ```Fixed typo in READMEmd.```
+
+### Being a good Code Reviewer
+
+[Google's Enginnering Practices documentation](https://google.github.io/eng-practices/review/) is a good reference for writing a good Code Review.
