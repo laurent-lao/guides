@@ -58,6 +58,7 @@ Node Version Manager allows you to easily switch between different versions of n
 
 Oh My Zsh allows you to run customize your zsh Terminal. It prettifies it but also adds a lot of features. I recommend that you backup your `~/.zshrc` file before [you install it](https://github.com/ohmyzsh/ohmyzsh) by executing `cp ~/.zshrc ~/.zshrc.copy`. Then, once the installation is done, copy anything from the `~/.zshrc.copy` to `~/.zshrc`. Although anything that modifies $PATH should be put at the top, anywhere is fine.
 
+<!-- markdownlint-disable MD025 -->
 # Installing other command-line tools
 
 ## Installing Git
