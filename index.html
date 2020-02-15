@@ -11,10 +11,16 @@
 <body>
   <div id="app"></div>
   <script>
+    // Modify Docsify configuration: https://docsify.js.org/#/configuration
     window.$docsify = {
       loadSidebar: true,
       name: 'Laurent\'s Guides',
-      repo: 'https://github.com/laurentlaurent/guides'
+      repo: 'https://github.com/laurentlaurent/guides',
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      alias: {
+        '/git-guide' : '/guide-git',
+        '/node-js-installation' : 'installation-node-js'
+      }
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
