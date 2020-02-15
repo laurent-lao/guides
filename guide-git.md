@@ -8,50 +8,6 @@ I forked a [popular list of git-commands](https://github.com/joshnh/Git-Commands
 2. Create the header and start typing.
 -->
 
-## Sections
-
-[Git Basics](#git-basics)
-
-* [Accessing a repo](#accessing-a-repo)
-
-* [Using Branches](#branches)
-
-* [Typical Workflow](#typical-workflow)
-
-[Git Commands](#git-commands)
-
-* [Getting & Creating Projects](#getting--creating-projects)
-  
-* [Basic Snapshotting](#basic-snapshotting)
-  
-* [Branching & Merging](#branching--merging)
-  
-* [Sharing & Updating Projects](#sharing--updating-projects)
-  
-* [Inspection & Comparison](#inspection--comparison)
-  
-* [Stashing](#stashing)
-
-[Advanced Git Guides](#advanced-git-guides)
-
-* [Changing a commit](#changing-a-commit)
-
-* [Archiving Branches](#archiving-branches)
-
-* [Overwrite Local Branch](#overwrite-local-branch)
-
-* [Overwrite Remote Branch](#overwrite-remote-branch)
-
-* [Delete Sensitive Files from Git](#delete-sensitive-files-from-git)
-
-* [Forking Workflow](#forking-workflow)
-  
-[Good Practices](#good-practices)
-
-* [Writing good Git Commit Messages](#writing-good-git-commit-messages)
-
-* [Being a good Code Reviewer](#being-a-good-code-reviewer)
-
 ## Git Basics
 
 ### Accessing a repo
