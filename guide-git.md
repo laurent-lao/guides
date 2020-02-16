@@ -13,6 +13,7 @@ I forked a [popular list of git-commands](https://github.com/joshnh/Git-Commands
 ```bash
 # Clone the Repo
 git clone <repolink.git>
+
 # Get Status (whether files were modified or remote was updated)
 git status
 # Pull changes to local
