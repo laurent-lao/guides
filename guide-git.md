@@ -22,7 +22,7 @@ git add <filename> # alternatively: git add . to add all files
 # Commit your changes
 git commit -m "[#XX] Add Git guide's TLDR"
 # Push your changes
-git pull # alternatively: git pull -u origin <branchName> (note the '-u')
+git push # alternatively: git push -u origin <branchName> (note the '-u')
 
 # Create a branch
 git checkout -b <branchName>
@@ -237,7 +237,7 @@ For some development projects, you might want to fork an existing repository and
 
 To update your fork's master branch, run the following (with `Enter` key after each line):
 
-```zsh
+```bash
 git checkout master
 git fetch upstream
 git pull upstream master
