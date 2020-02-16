@@ -8,6 +8,30 @@ I forked a [popular list of git-commands](https://github.com/joshnh/Git-Commands
 2. Create the header and start typing.
 -->
 
+## TLDR
+
+```bash
+# Clone the Repo
+git clone <repolink.git>
+# Get Status (whether files were modified or remote was updated)
+git status
+# Pull changes to local
+git pull # alternatively: git pull origin <branchName> (no '-u')
+# Stage your changes
+git add <filename> # alternatively: git add . to add all files
+# Commit your changes
+git commit -m "[#XX] Add Git guide's TLDR"
+# Push your changes
+git pull # alternatively: git pull -u origin <branchName> (note the '-u')
+
+# Create a branch
+git checkout -b <branchName>
+# Change branch
+git checkout <branchName>
+# Go back to master
+git checkout master
+```
+
 ## Git Basics
 
 ### Accessing a repo
