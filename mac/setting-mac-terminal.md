@@ -52,7 +52,7 @@ Node Version Manager allows you to easily switch between different versions of n
 
 * If you have to, add the `export NVM_DIR="$([...]"$NVM_DIR/nvm.sh" # This loads nvm` snippet available in the Github page to your `~/.zshrc` file (under the `export PATH...`, or anywhere else).
 
-* You can follow the [Node.js install guide](node-js-installation.md) to get node, angular and/or react installed
+* You can follow the [Node.js install guide](/guides/node-js-installation.md) to get node, angular and/or react installed
 
 ### Oh My Zsh
 
@@ -63,7 +63,7 @@ Oh My Zsh allows you to run customize your zsh Terminal. It prettifies it but al
 
 ## Installing Git
 
-Git is a version control system. It is probably the most important tool for a programmer. That is more often than not the way programmers use to collaborate with each other. With Git, you can use Github, Gitlab and other repository providers. I have written a [Git Guide](git-guide.md) to help with the process, but you should do a tutorial to understand Git better. Git is usually installed after you executed `xcode-select --install`. If not, or if you would like to use a more recent copy of Git, you can use `brew install git` to get Git on your Mac.
+Git is a version control system. It is probably the most important tool for a programmer. That is more often than not the way programmers use to collaborate with each other. With Git, you can use Github, Gitlab and other repository providers. I have written a [Git Guide](/guides/guide-git.md) to help with the process, but you should do a tutorial to understand Git better. Git is usually installed after you executed `xcode-select --install`. If not, or if you would like to use a more recent copy of Git, you can use `brew install git` to get Git on your Mac.
 
 ## Launching text editors with terminal
 

@@ -36,7 +36,7 @@ I kept the layout of both keyboards largely the same, with modifications such as
 
 * Switches: Halo True
 
-* [Preonic Layout](/raw-redirect/preonic-layout)
+* [Preonic Layout](/_raw-redirect/preonic-layout)
 
 </details>
 

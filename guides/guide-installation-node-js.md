@@ -2,7 +2,7 @@
 
 * If at any point, you are being told that you do not have permission, try adding `sudo` to the front of your commands.
 
-* Install nvm (you might have to edit your `.zshrc` afterwards: see [this section](setting-mac-terminal.md#node-version-manager) for help)
+* Install nvm (you might have to edit your `.zshrc` afterwards: see [this section](/mac/setting-mac-terminal.md#node-version-manager) for help)
 
 * Type `nvm install node` (might have to be in sudo for this) or alternatively, `nvm install x.x.x` where `x.x.x` is the node version you want to install.
 
