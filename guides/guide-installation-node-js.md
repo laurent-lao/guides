@@ -10,9 +10,30 @@
 
 * If there is an existing repo with node, then I would recommend cloning the repo, navigating to the checkout folder and to run `npm install` to install the packages outlined in the `package.json`.
 
-* If not, then you might want to install Angular and/or React globally.
+* If not, then you might want to install some of the node.js frameworks
 
-  * For Angular, you can use the command `npm install -g @angular/cli@latest`.
+## Angular
 
-  * For React, you can use the command `npm install -g react`.
-  
+For Angular, you might want to install the Angular CLI
+
+* `npm install -g @angular/cli@latest`
+
+This will install Angular globally so you can use `ng` commands from your terminal.
+
+Then, use `ng new <nameOfProject>` to create a new Angular project
+
+## React
+
+Since react is fully compatible with `Node.js`, you do not need to install it globally.
+
+Simply use the command `npm install react` onto your project folder to install React into your workspace.
+
+## Vue.js
+
+For Vue.js, you might want to install the Vue.js CLI
+
+* `npm install -g @vue/cli`
+
+This will install Vue.js globally so you can use `vue` commands from your terminal.
+
+Then, use `vue create <nameOfProject>` to create a new Vue.js project
