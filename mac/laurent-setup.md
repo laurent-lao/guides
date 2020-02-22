@@ -56,6 +56,8 @@ I like JetBrains's applications, and I've installed these plugins on every one o
 
 * Atom
 
+* Emacs
+
 * Sublime Text 3 (with [symlink](setting-mac-terminal#sublime-text-3) to launch from Terminal via `sublime <file>`)
 
 * `vim`
@@ -64,11 +66,17 @@ I like JetBrains's applications, and I've installed these plugins on every one o
 
 #### Other Programmer's Tools
 
+* Cyberduck (FTP)
+
 * Dash (API docs)
+
+* Docker
 
 * Fork (GUI git)
 
 * iTerm (Terminal replacement)
+
+* Quiver (Programming notes)
 
 ### Other Applications
 
@@ -76,21 +84,41 @@ I like JetBrains's applications, and I've installed these plugins on every one o
 
 ##### Getting Things Done
 
+* Be Focused for macOS/iOS (Pomodoro timer)
+
 * DEVONthink 3 (Reference files)
 
 * Fantastical (Calendar)
 
 * OmniFocus (GTD task manager)
 
+* TheBrain (Reference files)
+
 ##### Studying
+
+* Anki for macOS/iOS (Flashcards)
 
 * GoodNotes for macOS/iOS (Class notes)
 
 * MarginNote 3 for macOS/iOS (PDF Annotation that creates a mindmap)
 
+* Mindnode (Mindmaps)
+
+* OmniOutliner (Outline-based notetaking)
+
 * Notability for macOS/iOS (Loose leaves/exercises)
 
-##### Non-Exaustive list of other apps
+##### Productivy Tools
+
+* Keynode/PowerPoint
+
+* Numbers/Excel
+
+* Pages/Word
+
+* PDF Expert (PDF editing)
+
+#### Non-Exaustive list of other apps
 
 * 1Password (Password management)
 
@@ -98,20 +126,38 @@ I like JetBrains's applications, and I've installed these plugins on every one o
 
 * Bartender 3 (Manage Menu Bar clutter)
 
+* BetterTouchTool (Gesture customization)
+
 * Calibre (Ebook management)
 
+* CleanMyMac X (Cleaning utility)
+
+* Creative Cloud (Lightroom, Photoshop, Illustrator...)
+
 * DaisyDisk (Hard Disk space management)
+
+* Day One (Journaling)
 
 * DEVONagent Pro (Powerful web search)
 
 * Gestimer (Quick timers)
 
+* HazeOver (Blur out other apps for focus)
+
+* Jump Desktop (Remote desktop)
+
 * Karabiner (Remapping of some keys)
 
-* Keyboard Maestro (OS Scripting)
-
-_TODO_ add more
+* Keyboard Maestro (Macros and OS Scripting)
 
 * Magnet (Windows management)
+
+* Micro Snitch (Applet to know when my microphone/webcam is being accessed)
+
+* Monosnap (Screenshots)
+
+* OmniGraffle (Professional infographics)
+
+* Parallels (Virtual Machines)
 
 * SetApp (App subscription service) [referral link](https://go.setapp.com/invite/tqvdtfn8)
