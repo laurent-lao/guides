@@ -290,6 +290,12 @@ From [How to write a Git Commit Message](https://chris.beams.io/posts/git-commit
 
 ```Fix typo in README.md``` instead of ```Fixed typo in READMEmd.```
 
+### Gitignore Templates
+
+A good practice is to add a `.gitignore` file to avoid uploading non-useful files into a repo.
+
+There are templates to get started at [this website](https://github.com/github/gitignore)
+
 ### Being a good Code Reviewer
 
 [Google's Enginnering Practices documentation](https://google.github.io/eng-practices/review/) is a good reference for writing a good Code Review.
