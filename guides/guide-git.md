@@ -52,6 +52,18 @@ For `git log` see [Inspection & Comparison](#inspection--comparison)
 
 ## Git Basics
 
+### Git GUI Client
+
+There are other options of using Git if you are uncomfortable with the Terminal. However, since it is most likely that your development environment will feature some sort of Terminal, but not necessarily a Git GUI client, it is still recommended to learn the Terminal commands instead. If you wish to use a Git GUI client, consider this list:
+
+* [Fork](https://git-fork.com)
+
+* [GitHub Desktop](https://desktop.github.com)
+
+* [GitKraken](https://www.gitkraken.com)
+
+* [SourceTree](https://www.sourcetreeapp.com)
+
 ### Accessing a repo
 
 Two ways of accessing a repo, one by cloning, and the other one by `git init`.
