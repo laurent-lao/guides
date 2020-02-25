@@ -25,8 +25,8 @@ git commit -m "[#XX] Add Git guide's TLDR"
 # Push your changes
 git push # alternatively: git push -u origin <branchName> (note the '-u')
 
-# Create a branch
-git checkout -b <branchName>
+# Create a branch and switch to it
+git checkout -b <branchName> # alternatively: just create the branch with git branch <branchName>
 # Update the list of branches from the remote
 git fetch -a
 # Update your branch with the changes from master
