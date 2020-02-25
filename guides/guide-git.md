@@ -29,6 +29,8 @@ git push # alternatively: git push -u origin <branchName> (note the '-u')
 git checkout -b <branchName>
 # Update the list of branches from the remote
 git fetch -a
+# Update your branch with the changes from master
+git merge master
 # Change branch
 git checkout <branchName>
 # Go back to master
